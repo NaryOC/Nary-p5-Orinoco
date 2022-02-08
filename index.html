@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
+<html lang="fr"><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -10,8 +8,8 @@
   <meta name="description" content="Orinoco est un site e-commerce à thème. C'est aussi le 5ième projet du parcours développeur web chez OpenClassrooms."> 
 
   <link href="./styles/compiled.css" rel="stylesheet">
-  <script src="./js/config.js" defer></script>
-  <script src="./js/pages/index.js" defer></script>
+  <script src="./js/config.js" defer=""></script>
+  <script src="./js/pages/index.js" defer=""></script>
 </head>
 <body>
   <div class="container mx-auto px-4 py-8">
@@ -30,13 +28,121 @@
 
     <!-- PRODUCT CONTAINER & LOADING BOXES -->
     <ul id="productsList" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 mt-4">
-      <div class="bg-oniPink animate-pulse h-80"></div>
-      <div class="bg-oniPink animate-pulse h-80"></div>
-      <div class="bg-oniPink animate-pulse h-80"></div>
-      <div class="bg-oniPink animate-pulse h-80"></div>
-      <div class="bg-oniPink animate-pulse h-80"></div>
-      <div class="bg-oniPink animate-pulse h-80"></div>
-    </ul>
+    <li class="list-none bg-oniPink rounded-md p-4 transition duration-200 transform hover:scale-102">
+      <a id="productLink" href="/products.html?id=5be9c8541c9d440000665243">
+        <figure>
+          <img id="productImage" class="rounded h-64 w-full object-cover" src="http://oc-devweb-p5-api.herokuapp.com/images/teddy_1.jpg" alt="">
+          <figcaption class="pt-4">
+            <div class="flex items-center mb-2">
+              <h2 id="productName" class="font-bold ">Norbert</h2>
+              <div class="flex-grow"></div>
+              <div class="flex items-center mr-4">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+              </div>
+              <span id="productPrice" class="text-sm font-bold bg-white px-2 py-1 rounded">29.00 €</span>
+            </div>
+            <p id="productDescription" class="text-black text-opacity-80 text-sm text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+  
+    <li class="list-none bg-oniPink rounded-md p-4 transition duration-200 transform hover:scale-102">
+      <a id="productLink" href="/products.html?id=5beaa8bf1c9d440000a57d94">
+        <figure>
+          <img id="productImage" class="rounded h-64 w-full object-cover" src="http://oc-devweb-p5-api.herokuapp.com/images/teddy_2.jpg" alt="">
+          <figcaption class="pt-4">
+            <div class="flex items-center mb-2">
+              <h2 id="productName" class="font-bold ">Arnold</h2>
+              <div class="flex-grow"></div>
+              <div class="flex items-center mr-4">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+              </div>
+              <span id="productPrice" class="text-sm font-bold bg-white px-2 py-1 rounded">39.00 €</span>
+            </div>
+            <p id="productDescription" class="text-black text-opacity-80 text-sm text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+  
+    <li class="list-none bg-oniPink rounded-md p-4 transition duration-200 transform hover:scale-102">
+      <a id="productLink" href="/products.html?id=5beaaa8f1c9d440000a57d95">
+        <figure>
+          <img id="productImage" class="rounded h-64 w-full object-cover" src="http://oc-devweb-p5-api.herokuapp.com/images/teddy_3.jpg" alt="">
+          <figcaption class="pt-4">
+            <div class="flex items-center mb-2">
+              <h2 id="productName" class="font-bold ">Lenny and Carl</h2>
+              <div class="flex-grow"></div>
+              <div class="flex items-center mr-4">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+              </div>
+              <span id="productPrice" class="text-sm font-bold bg-white px-2 py-1 rounded">59.00 €</span>
+            </div>
+            <p id="productDescription" class="text-black text-opacity-80 text-sm text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+  
+    <li class="list-none bg-oniPink rounded-md p-4 transition duration-200 transform hover:scale-102">
+      <a id="productLink" href="/products.html?id=5beaabe91c9d440000a57d96">
+        <figure>
+          <img id="productImage" class="rounded h-64 w-full object-cover" src="http://oc-devweb-p5-api.herokuapp.com/images/teddy_4.jpg" alt="">
+          <figcaption class="pt-4">
+            <div class="flex items-center mb-2">
+              <h2 id="productName" class="font-bold ">Gustav</h2>
+              <div class="flex-grow"></div>
+              <div class="flex items-center mr-4">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+              </div>
+              <span id="productPrice" class="text-sm font-bold bg-white px-2 py-1 rounded">45.00 €</span>
+            </div>
+            <p id="productDescription" class="text-black text-opacity-80 text-sm text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+  
+    <li class="list-none bg-oniPink rounded-md p-4 transition duration-200 transform hover:scale-102">
+      <a id="productLink" href="/products.html?id=5beaacd41c9d440000a57d97">
+        <figure>
+          <img id="productImage" class="rounded h-64 w-full object-cover" src="http://oc-devweb-p5-api.herokuapp.com/images/teddy_5.jpg" alt="">
+          <figcaption class="pt-4">
+            <div class="flex items-center mb-2">
+              <h2 id="productName" class="font-bold ">Garfunkel</h2>
+              <div class="flex-grow"></div>
+              <div class="flex items-center mr-4">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+                <img class="h-5" src="./images/star.svg" alt="">
+              </div>
+              <span id="productPrice" class="text-sm font-bold bg-white px-2 py-1 rounded">55.00 €</span>
+            </div>
+            <p id="productDescription" class="text-black text-opacity-80 text-sm text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+  </ul>
     <!-- PRODUCT CONTAINER & LOADING BOXES -->
   </div>
 
@@ -66,5 +172,5 @@
     </li>
   </template>
   <!-- PRODUCT TEMPLATE -->
-</body>
-</html>
+
+</body></html>
